@@ -22,7 +22,13 @@ public class UiUtility {
         WebDriverWait wait=new WebDriverWait(driver,timeout);
         wait.until(ExpectedConditions.visibilityOf(element));
     }
-
+     public void sleep(int seconds){
+         try {
+             Thread.sleep(seconds*1000);
+         } catch (InterruptedException e) {
+             e.printStackTrace();
+         }
+     }
     public void takeScreenShot(String fileName){
         TakesScreenshot screenshot=(TakesScreenshot)driver;
         File screenShotFile=screenshot.getScreenshotAs(OutputType.FILE);
