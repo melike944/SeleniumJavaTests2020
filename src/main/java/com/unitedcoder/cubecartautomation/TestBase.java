@@ -1,5 +1,6 @@
 package com.unitedcoder.cubecartautomation;
 
+import com.unitedcoder.configutility.ApplicationConfig;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -25,6 +26,7 @@ public class TestBase {
                 System.setProperty("webdriver.chrome.driver", "c:\\webdriver\\chromedriver.exe");
                 driver = new ChromeDriver();
                 driver.manage().window().maximize();
+                driver.get(ApplicationConfig.readConfigProperties("config.properties","qaurl"));
                 //break;
                 //case "firefox":
             } else if (browserName.equalsIgnoreCase("firefox")) {
