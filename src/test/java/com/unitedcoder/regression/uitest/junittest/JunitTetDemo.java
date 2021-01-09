@@ -28,7 +28,7 @@ public class JunitTetDemo {
         System.out.println("Compare Two String");
         String s1="Selenium";
         String s2="selenium";
-        Assert.assertFalse(s1.equals(s2));
+        Assert.assertTrue(s1.equals(s2));
     }
     @Test
     public void addCustomer(){
