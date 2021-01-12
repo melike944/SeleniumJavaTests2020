@@ -44,5 +44,6 @@ public class LoginPage {
             enterPassword(password);
             clickLoginButton();
         }
+
     }
 

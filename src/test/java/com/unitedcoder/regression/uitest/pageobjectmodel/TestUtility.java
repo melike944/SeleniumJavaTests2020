@@ -17,7 +17,7 @@ public class TestUtility {
         WebDriverWait wait=new WebDriverWait(driver,timeout);
         wait.until(ExpectedConditions.visibilityOf(element));
     }
-    public void slepp(int seconds){
+    public void sleep(int seconds){
         try {
             Thread.sleep(seconds*1000);
         } catch (InterruptedException e) {
