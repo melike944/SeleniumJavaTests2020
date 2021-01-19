@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CubeCart Test Automation" verbose="1">
+    <listeners>
+        <listener class-name="org.testng.reporters.EmailableReporter"/>
+        <listener class-name="org.testng.reporters.SuiteHTMLReporter"/>
+    </listeners>
+    <parameter name="url" value="http://cubecart.unitedcoderschool.com/ecommerce/admin_w4vqap.php"/>
+    <parameter name="username" value="testautomation"/>
+    <parameter name="password" value="automation123!"/>
+    <test verbose="1" name="regression test">
+        <!--        <groups>-->
+        <!--            <run>-->
+        <!--                <include name="smoke test"/>-->
+        <!--            </run>-->
+        <!--        </groups>-->
+        <classes>
+            <class name="com.unitedcoder.regression.uitest.testngframework.ParametrizationDemo"/>
+        </classes>
+    </test>
+    <test name="Smoke Test">
+        <classes>
+            <class name="com.unitedcoder.regression.uitest.testngframework.TestNGDemo3">
+                <!--                <methods>-->
+                <!--                    <include name="test1"/>-->
+                <!--                </methods>-->
+            </class>
+            <class name="com.unitedcoder.regression.uitest.testngframework.TestNGDemo1">
+                <!--                <methods>-->
+                <!--                    <include name="addProductTest"/>-->
+                <!--                    <exclude name="deleteProduct"/>-->
+                <!--                </methods>-->
+            </class>
+
+        </classes>
+    </test>
+</suite>
