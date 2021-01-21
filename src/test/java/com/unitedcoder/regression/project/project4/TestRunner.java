@@ -1,4 +1,4 @@
-package com.unitedcoder.regression.project4;
+package com.unitedcoder.regression.project.project4;
 
 import com.unitedcoder.cubecartautomation.TestBase;
 import com.unitedcoder.regression.uitest.pageobjectmodel.DashboardPage;
