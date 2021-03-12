@@ -16,7 +16,8 @@ public class DataProviderDemo extends TestBase {
     public void setup(){
         initialzation();
     }
-    @Test(dataProvider = "loginInfo")
+
+    @Test(dataProvider= "loginInfo")
     public void roleBasedSecurityTest(String username,String password){
         utility=new TestUtility(driver);
         utility.sleep(3);
