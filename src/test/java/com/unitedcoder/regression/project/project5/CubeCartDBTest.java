@@ -6,8 +6,8 @@ import com.unitedcoder.regression.databasetest.ConnectionManager;
 import com.unitedcoder.regression.databasetest.ConnectionType;
 import com.unitedcoder.regression.databasetest.DataAccess;
 
-import com.unitedcoder.regression.uitest.pageobjectmodel.DashboardPage;
-import com.unitedcoder.regression.uitest.pageobjectmodel.LoginPage;
+import com.unitedcoder.regression.uitest.pageobjectmodule.DashboardPage;
+import com.unitedcoder.regression.uitest.pageobjectmodule.LoginPage;
 
 import org.testng.Assert;
 import org.openqa.selenium.PageLoadStrategy;

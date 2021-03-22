@@ -1,7 +1,7 @@
 package com.unitedcoder.regression.project.project4;
 
 import com.unitedcoder.configutility.ApplicationConfig;
-import com.unitedcoder.regression.uitest.pageobjectmodel.TestUtility;
+import com.unitedcoder.regression.uitest.pageobjectmodule.TestUtility;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

@@ -1,11 +1,11 @@
-package com.unitedcoder.regression.uitest.pageobjectmodel;
+package com.unitedcoder.regression.uitest.pageobjectmodule;
+
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindAll;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-
 import java.util.List;
 
 public class CustomerPage {
@@ -15,6 +15,8 @@ public class CustomerPage {
     WebElement customerTable;
     @FindAll(
             @FindBy(xpath = "//div[@id='customer-list']/table/tbody/tr")
+
+
     )
     List<WebElement> customerList;
 
@@ -23,8 +25,13 @@ public class CustomerPage {
         PageFactory.initElements(driver,this);
         utility=new TestUtility(driver);
     }
+
+
     public boolean viewCustomers(){
         utility.waitForElementPresent(customerTable);
         return customerList.size()>=1;
     }
+
+
 }
+
