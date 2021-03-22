@@ -13,7 +13,7 @@
     </test>
     <test name="CubeCart Ui Test">
         <classes>
-        <class name="com.unitedcoder.regression.uitest.pageobjectmodel.JUnitTestRunner" ></class>
+        <class name="com.unitedcoder.regression.uitest.pageobjectmodule.JUnitTestRunner" ></class>
         </classes>
     </test>
 </suite>

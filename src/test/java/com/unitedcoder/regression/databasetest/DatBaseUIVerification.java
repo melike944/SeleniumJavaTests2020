@@ -1,11 +1,10 @@
 package com.unitedcoder.regression.databasetest;
 
 
-import com.unitedcoder.classconcepts.ProductContent;
 import com.unitedcoder.configutility.ApplicationConfig;
 import com.unitedcoder.configutility.UiUtility;
-import com.unitedcoder.regression.uitest.pageobjectmodel.DashboardPage;
-import com.unitedcoder.regression.uitest.pageobjectmodel.ProductsPage;
+import com.unitedcoder.regression.uitest.pageobjectmodule.DashboardPage;
+import com.unitedcoder.regression.uitest.pageobjectmodule.ProductsPage;
 import org.openqa.selenium.By;
 import org.openqa.selenium.PageLoadStrategy;
 import org.openqa.selenium.WebDriver;

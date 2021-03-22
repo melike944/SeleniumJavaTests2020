@@ -1,8 +1,8 @@
 package com.unitedcoder.regression.project.project4;
 
 import com.unitedcoder.cubecartautomation.TestBase;
-import com.unitedcoder.regression.uitest.pageobjectmodel.DashboardPage;
-import com.unitedcoder.regression.uitest.pageobjectmodel.LoginPage;
+import com.unitedcoder.regression.uitest.pageobjectmodule.DashboardPage;
+import com.unitedcoder.regression.uitest.pageobjectmodule.LoginPage;
 import org.junit.AfterClass;
 import org.junit.Assert;
 import org.junit.BeforeClass;

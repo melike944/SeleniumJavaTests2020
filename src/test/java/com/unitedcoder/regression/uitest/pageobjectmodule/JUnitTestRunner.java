@@ -1,4 +1,4 @@
-package com.unitedcoder.regression.uitest.pageobjectmodel;
+package com.unitedcoder.regression.uitest.pageobjectmodule;
 
 import com.unitedcoder.configutility.ApplicationConfig;
 import com.unitedcoder.cubecartautomation.TestBase;

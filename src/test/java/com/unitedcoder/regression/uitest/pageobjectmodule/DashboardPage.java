@@ -1,4 +1,4 @@
-package com.unitedcoder.regression.uitest.pageobjectmodel;
+package com.unitedcoder.regression.uitest.pageobjectmodule;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -41,5 +41,10 @@ public class DashboardPage {
     public void logout(){
         utility.waitForElementPresent(logoutButton);
         logoutButton.click();
+    }
+    public boolean verifyDashBoardPage(){
+        if(productsLink.isDisplayed())
+            return true;
+        else return false;
     }
 }

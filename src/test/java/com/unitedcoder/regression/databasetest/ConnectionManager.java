@@ -1,7 +1,5 @@
 package com.unitedcoder.regression.databasetest;
 
-import org.junit.Assert;
-import org.testng.annotations.Test;
 
 
 import java.sql.Connection;

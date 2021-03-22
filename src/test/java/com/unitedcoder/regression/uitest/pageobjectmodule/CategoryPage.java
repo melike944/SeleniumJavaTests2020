@@ -1,4 +1,4 @@
-package com.unitedcoder.regression.uitest.pageobjectmodel;
+package com.unitedcoder.regression.uitest.pageobjectmodule;
 
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.WebDriver;
